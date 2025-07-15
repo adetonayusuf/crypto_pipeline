@@ -34,11 +34,11 @@ As part of a real-world data engineering initiative, I built a **production-read
 
 Implementing this pipeline resulted in significant operational and financial improvements for IntelloBank:
 
-* ✅ **Timely Decision-Making**: Power BI dashboards refresh every 24 hours via Azure Data Factory, enabling real-time market monitoring and reducing decision latency by over 30%.
-* ✅ **Revenue Optimization**: Better visibility into price trends and ROI led to improved entry and exit timing—resulting in a **10–15% increase in crypto portfolio profitability** based on backtesting performance.
-* ✅ **Cost Efficiency**: By automating manual ETL and reporting tasks, the pipeline saves more than **20 hours per week**, equating to **\$15,000–\$20,000 annual labor cost savings**.
-* ✅ **Accuracy and Governance**: Governance via Unity Catalog ensures lineage, access control, and audit compliance—leading to a **25% reduction in reporting errors** and more confident executive decision-making.
-* ✅ **Scalability**: Built on cloud-native architecture with Delta Lake, Autoloader, and DLT, the solution easily scales with growing crypto data volume without increasing operational overhead.
+*  **Timely Decision-Making**: Power BI dashboards refresh every 24 hours via Azure Data Factory, enabling real-time market monitoring and reducing decision latency by over 30%.
+*  **Revenue Optimization**: Better visibility into price trends and ROI led to improved entry and exit timing—resulting in a **10–15% increase in crypto portfolio profitability** based on backtesting performance.
+*  **Cost Efficiency**: By automating manual ETL and reporting tasks, the pipeline saves more than **20 hours per week**, equating to **\$15,000–\$20,000 annual labor cost savings**.
+*  **Accuracy and Governance**: Governance via Unity Catalog ensures lineage, access control, and audit compliance—leading to a **25% reduction in reporting errors** and more confident executive decision-making.
+*  **Scalability**: Built on cloud-native architecture with Delta Lake, Autoloader, and DLT, the solution easily scales with growing crypto data volume without increasing operational overhead.
 
 ---
 
