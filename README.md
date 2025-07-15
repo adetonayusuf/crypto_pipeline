@@ -10,7 +10,7 @@ As part of a real-world data engineering initiative, I built a **production-read
 > 
 > **Portfolio:** [https://www.datascienceportfol.io/adetonayusuf](https://www.datascienceportfol.io/adetonayusuf)
 > 
-> **LinkedIn:** [https://www.linkedin.com/in/adetonayusuf](https://www.linkedin.com/in/adetonayusuf)
+> **LinkedIn:** [https://www.linkedin.com/in/adetonayusuf](https://www.linkedin.com/in/yusuf-adetona/)
 > 
 > **Email:** [yustone003@yahoo.com](mailto:yustone003@yahoo.com)
 > 
@@ -169,7 +169,7 @@ I'm open to collaborations, full-time opportunities, and freelance projects invo
 
 ✉ [yustone003@yahoo.com](mailto:yustone003@yahoo.com)
 📱 +234-706-205-6766
-📈 LinkedIn: [Yusuf Adetona](https://www.linkedin.com/in/adetonayusuf)
+📈 LinkedIn: [Yusuf Adetona](https://www.linkedin.com/in/yusuf-adetona/)
 🌐 Portfolio: [datascienceportfol.io/adetonayusuf](https://www.datascienceportfol.io/adetonayusuf)
 
 ---
