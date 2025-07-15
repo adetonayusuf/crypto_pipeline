@@ -6,9 +6,7 @@ As part of a real-world data engineering initiative, I built a **production-read
 
 > **Title:** Designing a Scalable Cryptocurrency Data Pipeline using Azure Blob Storage, Databricks Autoloader & Delta Lake
 > **By:** Yusuf Adetona, Certified Accountant & Azure Data Engineer
-
 > **Portfolio:** [https://www.datascienceportfol.io/adetonayusuf](https://www.datascienceportfol.io/adetonayusuf)
-
 > **LinkedIn:** [https://www.linkedin.com/in/adetonayusuf](https://www.linkedin.com/in/adetonayusuf)
 > **Email:** [yustone003@yahoo.com](mailto:yustone003@yahoo.com)
 > **Phone:** +234-706-205-6766
@@ -22,7 +20,7 @@ As part of a real-world data engineering initiative, I built a **production-read
 * **Data Source:** CoinGecko API (Crypto market data)
 * **BI & Visualization:** Power BI
 * **Orchestration:** Azure Data Factory (24-hour scheduled triggers)
-* **Security & Governance:** Unity Catalog (fine-grained access control, lineage tracking)
+* **Security & Governance:** Unity Catalog (fine-grained access control, lineage tracking), Azure Key Vault (secure secrets management)
 * **Architecture Pattern:** Medallion architecture (Bronze → Silver → Gold)
 
 ---
@@ -31,11 +29,11 @@ As part of a real-world data engineering initiative, I built a **production-read
 
 Implementing this pipeline resulted in significant operational and financial improvements for IntelloBank:
 
-* ✅ **Timely Decision-Making**: Power BI dashboards refresh every 24 hours via Azure Data Factory, enabling real-time market monitoring and reducing decision latency by over 30%.
-* ✅ **Revenue Optimization**: Better visibility into price trends and ROI led to improved entry and exit timing—resulting in a **10–15% increase in crypto portfolio profitability** based on backtesting performance.
-* ✅ **Cost Efficiency**: By automating manual ETL and reporting tasks, the pipeline saves more than **20 hours per week**, equating to **\$15,000–\$20,000 annual labor cost savings**.
-* ✅ **Accuracy and Governance**: Governance via Unity Catalog ensures lineage, access control, and audit compliance—leading to a **25% reduction in reporting errors** and more confident executive decision-making.
-* ✅ **Scalability**: Built on cloud-native architecture with Delta Lake, Autoloader, and DLT, the solution easily scales with growing crypto data volume without increasing operational overhead.
+*  **Timely Decision-Making**: Power BI dashboards refresh every 24 hours via Azure Data Factory, enabling real-time market monitoring and reducing decision latency by over 30%.
+*  **Revenue Optimization**: Better visibility into price trends and ROI led to improved entry and exit timing—resulting in a **10–15% increase in crypto portfolio profitability** based on backtesting performance.
+*  **Cost Efficiency**: By automating manual ETL and reporting tasks, the pipeline saves more than **20 hours per week**, equating to **\$15,000–\$20,000 annual labor cost savings**.
+*  **Accuracy and Governance**: Governance via Unity Catalog ensures lineage, access control, and audit compliance—leading to a **25% reduction in reporting errors** and more confident executive decision-making.
+*  **Scalability**: Built on cloud-native architecture with Delta Lake, Autoloader, and DLT, the solution easily scales with growing crypto data volume without increasing operational overhead.
 
 ---
 
@@ -84,8 +82,9 @@ Created clean, analytical tables using SQL in Databricks:
 * Executed notebooks (Bronze → Silver → Gold)
 * Copied gold-layer Delta tables into Azure SQL Database
 
-#### 6. **Governance with Unity Catalog**
+#### 6. **Governance & Security**
 
+* All sensitive credentials and API keys were securely managed using **Azure Key Vault**, ensuring best practices for secret storage and access control.
 * Registered all datasets under Unity Catalog
 * Enabled fine-grained access control and audit
 * Tracked lineage and data flows across the pipeline
@@ -118,10 +117,20 @@ Average ROI % = AVERAGE(dim_roi[roi_percentage])
 Price Change 24h % = AVERAGE(crypto_fact[price_change_percentage_24h])
 Volume Change = SUM(crypto_fact[total_volume]) - SUM(crypto_fact[total_volume_double])
 Market Cap Rank = RANKX(ALL(crypto_fact), [Total Market Cap], , DESC)
+```
 
 ---
 
-### 🚑 Contact Me
+### Future Improvements
+
+* Add real-time streaming using Event Hub + Structured Streaming
+* Integrate sentiment analysis from crypto news APIs
+* Deploy Power BI dashboard to Azure workspace for role-based access
+* Enable continuous deployment using DevOps pipelines
+
+---
+
+### Contact Me
 
 I'm open to collaborations, full-time opportunities, and freelance projects involving cloud data engineering, analytics pipelines, or FinTech solutions.
 
