@@ -6,7 +6,9 @@ As part of a real-world data engineering initiative, I built a **production-read
 
 > **Title:** Designing a Scalable Cryptocurrency Data Pipeline using Azure Blob Storage, Databricks Autoloader & Delta Lake
 > **By:** Yusuf Adetona, Certified Accountant & Azure Data Engineer
+
 > **Portfolio:** [https://www.datascienceportfol.io/adetonayusuf](https://www.datascienceportfol.io/adetonayusuf)
+
 > **LinkedIn:** [https://www.linkedin.com/in/adetonayusuf](https://www.linkedin.com/in/adetonayusuf)
 > **Email:** [yustone003@yahoo.com](mailto:yustone003@yahoo.com)
 > **Phone:** +234-706-205-6766
