@@ -84,7 +84,7 @@ Created clean, analytical tables using SQL in Databricks:
 #### 5. **Orchestration in Azure Data Factory**
 
 * Scheduled triggers to run the entire pipeline every 24 hours
-* Executed notebooks (Bronze → Silver → Gold)
+* Executed notebooks (Bronze → Silver → Gold) ![ADF orchestration](https://github.com/adetonayusuf/crypto_pipeline/blob/main/ADF%20Orchestration%20Pipeline.png)
 * Copied gold-layer Delta tables into Azure SQL Database
 
 #### 6. **Governance & Security**
