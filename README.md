@@ -71,7 +71,7 @@ Implementing this pipeline resulted in significant operational and financial imp
 * Removed nulls, duplicates
 * Standardized date formats, coin categories, and volumes
 
-#### 4. **Gold Layer Fact & Dimensions**
+#### 4. **Gold Layer Fact & Dimensions** ![GoldContainer](https://github.com/adetonayusuf/crypto_pipeline/blob/main/gold%20container.png)
 
 Created clean, analytical tables using SQL in Databricks:
 
@@ -90,7 +90,7 @@ Created clean, analytical tables using SQL in Databricks:
 #### 6. **Governance & Security**
 
 * All sensitive credentials and API keys were securely managed using **Azure Key Vault**, ensuring best practices for secret storage and access control.
-* Registered all datasets under Unity Catalog
+* Registered all datasets under Unity Catalog ![UnityCatalog](https://github.com/adetonayusuf/crypto_pipeline/blob/main/Unity%20Catalog.png)
 * Enabled fine-grained access control and audit
 * Tracked lineage and data flows across the pipeline
 
