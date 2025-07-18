@@ -94,9 +94,9 @@ Created clean, analytical tables using SQL in Databricks:
 * Enabled fine-grained access control and audit
 * Tracked lineage and data flows across the pipeline
 
-#### 7. **Power BI Dashboard**
+#### 7. **Power BI Dashboard** 
 
-* Built interactive visualizations:
+* Built interactive visualizations: ![Dashboard](https://github.com/adetonayusuf/crypto_pipeline/blob/main/intello.png)
 
   * Market Cap by Coin, Category, Exchange
   * ROI % by Time Period
