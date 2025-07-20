@@ -42,12 +42,12 @@ Implementing this pipeline resulted in significant operational and financial imp
 
 ---
 
-### End-to-End Architecture
+### End-to-End Architecture ![Data Architecture](https://github.com/adetonayusuf/crypto_pipeline/blob/main/IntelloBank%20Crypto%20Architecture.drawio.png)
 
 ```text
 [CoinGecko API] → [Azure Blob Storage (Bronze)] → [Databricks Autoloader]
 → [Delta Live Tables (Silver)] → [SQL MERGE into Delta Tables (Gold)]
-→ [Azure SQL Database] → [Power BI Dashboard]
+→ [Azure SQL Database]/Gold Layer → [Power BI Dashboard]
 → [Unity Catalog] → [Governance, Lineage, Access Control]
 → [Azure Data Factory] → [Orchestration with 24-hour trigger]
 ```
