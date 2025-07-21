@@ -59,7 +59,7 @@ Implementing this pipeline resulted in significant operational and financial imp
 #### 1. **Raw Data Ingestion**
 
 * Used Python scripts in Databricks to connect to CoinGecko API
-* Stored JSON data in Azure Data Lake Gen2 (Bronze)
+* Stored JSON data in Azure Data Lake Gen2 (Bronze)  !(https://github.com/adetonayusuf/crypto_pipeline/blob/main/crypto/bronze-layer.ipynb)
 
 #### 2. **Streaming Ingestion via Autoloader**
 
