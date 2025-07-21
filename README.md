@@ -64,14 +64,14 @@ Implementing this pipeline resulted in significant operational and financial imp
 #### 2. **Streaming Ingestion via Autoloader**
 
 * Configured Autoloader to detect new files
-* Ingested into raw structured Delta format (Silver layer)
+* Ingested into raw structured Delta format (Silver layer) ![Silver](https://github.com/adetonayusuf/crypto_pipeline/blob/main/crypto/silver-layer.ipynb)
 
 #### 3. **Delta Live Tables for Cleansing**
 
 * Removed nulls, duplicates
 * Standardized date formats, coin categories, and volumes
 
-#### 4. **Gold Layer Fact & Dimensions** ![GoldContainer](https://github.com/adetonayusuf/crypto_pipeline/blob/main/gold%20container.png)
+#### 4. **Gold Layer Fact & Dimensions** ![Gold](https://github.com/adetonayusuf/crypto_pipeline/blob/main/crypto/gold_layer.ipynb) ![GoldContainer](https://github.com/adetonayusuf/crypto_pipeline/blob/main/gold%20container.png)
 
 Created clean, analytical tables using SQL in Databricks:
 
